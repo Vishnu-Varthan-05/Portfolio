@@ -25,6 +25,13 @@ body, html{
     font-weight: 500;
     font-style: italic;
 }
+.jt-light-it {
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: italic;
+}
+
 .welcome{
     display: flex;
     text-align: justify;
@@ -34,7 +41,6 @@ body, html{
     margin-left: 5vw;
     margin-right: 5vw;
     margin-top: 2vh;
-    margin-bottom: 2vh;
 }
 .profile-image {
     width: 110px; 
@@ -52,10 +58,15 @@ body, html{
 }
 .about{
     margin-top: 1vh;
-    text-align: justify;
+    text-align: left;
+}
+blockquote{
+    text-align: end;
+    display: block;
+    margin-bottom: 1vh;
 }
 .terminal{
-    padding: 5px;
+    padding: 10px;
     background-color: black;
     color: #aaaaaa;
     min-width: 90vw;
@@ -64,6 +75,7 @@ body, html{
     min-height: 80vh;
     border-radius: 5px;
     overflow-y: auto;
+    overflow-x: hidden;
     scrollbar-width: none;
     scroll-behavior: smooth;
 }
@@ -73,7 +85,7 @@ body, html{
     color: #aaaaaa;
     outline: none;
     margin-top: 10px;
-    
+    margin-bottom: 5px;
 }
 
 .terminal-input:focus{
@@ -86,8 +98,17 @@ body, html{
     background-color: black;
     color: #aaaaaa;
     font-size: small;
+    word-break: break-word;
+    word-wrap: break-word;
 }
-
+pre {
+    white-space: pre-wrap; 
+    word-wrap: break-word; 
+}
 .terminal-label{
     color: #90a959;
+}
+a{
+    text-decoration: underline;
+    color: #aaaaaa;
 }
