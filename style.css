@@ -34,7 +34,7 @@ body, html{
 
 .welcome{
     display: flex;
-    text-align: justify;
+    text-align: left;
     justify-content: center;
     align-items: center;
     color: #aaaaaa;
