@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #808080;
+}
+
+.jt-regular {
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.jt-medium {
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.terminal{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border: red 1px solid;
+    min-width: 90vw;
+    min-height: 80vh;
+    border-radius: 5px;
+}
+.terminal-input{
+    background-color: black;
+    border: none;
+    color: white;
+    outline: none;
+    
+}
+.terminal-input:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.terminal-output{
+    background-color: black;
+    color: white;
+    font-size: small;
+}
