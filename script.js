@@ -109,7 +109,7 @@ const commands = {
     },
     skills: (outputElement) => {
         outputElement.textContent =
-            "PROGRAMMING LANGUAGES\n---------------------\nProficient in\t-> Java C SQL\nFamiliar with\t-> Javascript Python C#\n\nCORE\n----\nProficient in\t-> OOPS\nProficient in\t-> commonly used Data Structures and Algorithms\nFamiliar with\t-> basic Networking\n\nTOOLS\n-----\nFamiliar with\t-> Git and Github\nFamiliar with\t-> React, Spring, Express, MYSQL\n(Basic understanding of how these frameworks/libraries work and their use in web development)\nFamiliar with\t-> Basic Linux usage\n(command line, file management, basic administration)\nFamiliar with\t-> Basic Docker\n\nLeetcode\t-> ";
+            "PROGRAMMING LANGUAGES\n---------------------\nProficient in\t-> Java C SQL\nFamiliar with\t-> Javascript Python\n\nCORE\n----\nProficient in\t-> OOPS\nProficient in\t-> commonly used Data Structures and Algorithms\nFamiliar with\t-> basic Networking\n\nTOOLS\n-----\nFamiliar with\t-> Git and Github\nFamiliar with\t-> React, Spring, Express, MYSQL\n(Basic understanding of how these frameworks/libraries work and their use in web development)\nFamiliar with\t-> Basic Linux usage\n(command line, file management, basic administration)\nFamiliar with\t-> Basic Docker\n\nLeetcode\t-> ";
 
         const leetcodeLink = document.createElement("a");
         leetcodeLink.href = "https://leetcode.com/u/vishnu-varthan-05/";
