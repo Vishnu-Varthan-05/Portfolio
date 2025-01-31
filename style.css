@@ -112,3 +112,10 @@ a{
     text-decoration: underline;
     color: #aaaaaa;
 }
+
+@media(max-width:680px){
+    .welcome{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+}
