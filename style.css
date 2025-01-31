@@ -45,8 +45,8 @@ body, html{
 .profile-image {
     width: 110px; 
     height: 110px;
-    border-radius: 50%; 
-    object-fit: cover;
+    border-radius:100%; 
+    object-fit: fit;
     margin-left: 20px;
 }
 .terminal-wrapper{
